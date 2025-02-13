@@ -1,0 +1,57 @@
+.frete-option {
+  display:inline-flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s;
+  min-width: 500px;
+  margin: 10px;
+}
+
+.frete-option:hover {
+    border: 3px solid #cbe7cd;
+    margin: 8px;
+}
+
+.frete-checkbox:checked + .frete-label {
+    background-color: #d4edda; /* Verde claro */
+  }
+  
+.frete-checkbox {
+  display: none;
+}
+
+.frete-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.frete-image {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.frete-details {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.frete-name {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.frete-price {
+  font-size: 1em;
+  color: #333;
+}
+
+.frete-delivery-time {
+  font-size: 0.9em;
+  color: #666;
+}
